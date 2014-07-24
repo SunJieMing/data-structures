@@ -24,5 +24,3 @@ stackMethods.pop = function(){
 stackMethods.size = function(){
   return this.length;
 };
-//makeStack.prototype = stackMethods;
-
