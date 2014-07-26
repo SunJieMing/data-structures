@@ -37,6 +37,8 @@ treeMethods.contains = function(target){
 
 };
 
-/*
- * Complexity: What is the time complexity of the above functions?
- */
+var scrabbleFunction = function(remainingTiles, combination){
+  //if !remaining,
+  for (remainingTiles.length)
+    scrabbleFunction(remainingTiles.remove[i], combination + "" + i)
+};

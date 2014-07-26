@@ -2,11 +2,10 @@ var makeLinkedList = function(){
   var list = {};
   list.head = null;
   list.tail = null;
-  // list.counter = 1;
 
   list.addToTail = function(value){
     var newNode = makeNode(value);
-    if(list.head === null){
+    if(!list.head){
       list.tail = list.head = newNode;
     } else {
       list.tail.next = list.tail = newNode;
@@ -15,7 +14,6 @@ var makeLinkedList = function(){
   };
 
   list.removeHead = function(){
-
     var result = list.head.value;
     list.head = list.head.next;
     return result;
